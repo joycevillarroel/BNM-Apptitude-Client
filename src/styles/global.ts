@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.white};
   }
   body, input, textarea, button {
-    color: ${({ theme }) => theme.black};
+    color: ${({ theme }) => theme.white};
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 400;
