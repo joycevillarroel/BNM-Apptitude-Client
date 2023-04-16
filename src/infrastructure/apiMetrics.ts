@@ -1,8 +1,17 @@
+import { IMetrics } from '../constans/interfaces'
 import api from './api'
-import { AxiosResponse } from 'axios'
+
+export interface IMetricsResponse {
+  status: number
+  data: {
+    metricsList: {
+      data: Array<IMetrics>
+    }
+  }
+}
 
 const APIMetrics = {
-  getMetrics: async (): Promise<AxiosResponse> => {
+  getMetrics: async (): Promise<IMetricsResponse> => {
     return (await api).get('/api/v1/metrics-list')
   },
 }
