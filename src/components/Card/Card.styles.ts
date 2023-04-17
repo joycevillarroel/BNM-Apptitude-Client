@@ -7,12 +7,12 @@ interface ICardContainerProps {
 }
 
 export const CardContainer = styled.div`
-  width: 350px;
+  width: 300px;
   border: 1px solid ${({ theme }) => theme.gray200};
 `
 
 export const SubContainer = styled.div`
-  width: 350px;
+  width: 300px;
   display: flex;
   padding-left: 16px;
   padding-top: 16px;

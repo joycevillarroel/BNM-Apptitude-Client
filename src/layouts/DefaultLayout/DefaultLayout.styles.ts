@@ -9,7 +9,5 @@ export const LayoutContainer = styled.div`
 
 export const LayoutContent = styled.div`
   width: 100%;
-  max-width: 75.9375rem;
   height: calc(100vh - 14.875rem);
-  padding: 0 1rem;
 `

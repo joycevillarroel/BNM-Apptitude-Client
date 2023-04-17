@@ -9,6 +9,6 @@ export const ButtonContainer = styled.button<IButtonContainerProps>`
     selected ? theme.primary : theme.gray200};
   min-width: 150px;
   border: none;
-  height: 45px;
+  height: 35px;
   border-radius: 4px 4px 0px 0px;
 `

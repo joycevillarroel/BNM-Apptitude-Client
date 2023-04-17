@@ -14,7 +14,7 @@ import {
   PerformanceNumber,
   PerformaceBox,
 } from './Card.styles'
-import { IMetrics } from '../../constans/interfaces'
+import { IMetrics } from '../../redux/metrics/MetricsInterface'
 import DownIcon from '../../assets/images/BNM_Metric_Down.svg'
 import UpIcon from '../../assets/images/BNM_Metric_Up.svg'
 

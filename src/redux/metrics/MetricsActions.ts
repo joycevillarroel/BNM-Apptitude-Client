@@ -1,6 +1,6 @@
 import {
   IGetALLMetrics,
-  IMetrics,
+  IMetricsGroups,
   ISaveALLMetrics,
   ISaveMessage,
 } from './MetricsInterface'
@@ -15,7 +15,9 @@ export const GetAllMetrics = (): IGetALLMetrics => ({
   type: Types.GET_ALL_METRICS,
 })
 
-export const SaveAllMetrics = (payload: Array<IMetrics>): ISaveALLMetrics => ({
+export const SaveAllMetrics = (
+  payload: Array<IMetricsGroups>,
+): ISaveALLMetrics => ({
   type: Types.SAVE_ALL_METRICS,
   payload,
 })

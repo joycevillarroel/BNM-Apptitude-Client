@@ -7,8 +7,13 @@ export interface IMetrics {
   percentile: number
 }
 
+export interface IMetricsGroups {
+  metrics_group: string
+  data: Array<IMetrics>
+}
+
 export interface IMetricState {
-  allMetrics?: Array<IMetrics>
+  allMetrics?: Array<IMetricsGroups>
   message?: string
 }
 
@@ -18,7 +23,7 @@ export interface IGetALLMetrics {
 
 export interface ISaveALLMetrics {
   type: Types.SAVE_ALL_METRICS
-  payload: Array<IMetrics>
+  payload: Array<IMetricsGroups>
 }
 
 export interface ISaveMessage {
