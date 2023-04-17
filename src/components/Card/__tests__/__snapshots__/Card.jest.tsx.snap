@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render 1`] = `
+<div
+  class="sc-beqWaB fMkGij"
+  data-testid="card"
+>
+  <div
+    class="sc-dmqHEX flHICX"
+  >
+    <text
+      class="sc-hLseeU bRNsPK"
+    >
+      SESSIONS (SITE TRAFFIC)
+    </text>
+  </div>
+  <div
+    class="sc-gueYoa kEjKMf"
+  >
+    <div
+      class="sc-eDDNvR hPERhE"
+    >
+      <text
+        class="sc-jTrPJq hqtzJh"
+      >
+        1,400
+      </text>
+    </div>
+    <text
+      class="sc-gLDzan bIRRbM"
+      data-testid="icon"
+    >
+      100.00
+      %
+    </text>
+    <div
+      class="sc-iAEyYk ihxAWM"
+    >
+      <img
+        class="sc-qRumB chHEqg"
+      />
+      <text
+        class="sc-fsQiph cnDdDq"
+      >
+        pctl
+      </text>
+    </div>
+  </div>
+  <div
+    class="sc-jsMahE hgVxFc"
+  >
+    <text
+      class="sc-kFuwaP jquKJZ"
+    >
+      Your performace from last week
+       
+      <text
+        class="sc-irTswW hIVvXP"
+      >
+        -2
+        %
+      </text>
+    </text>
+  </div>
+</div>
+`;
