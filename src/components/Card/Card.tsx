@@ -26,7 +26,7 @@ export function Card({ metrics }: ICard) {
   const isPositiveVariation = metrics.week_over_week_change > 0
   const variationChange = isPositiveVariation ? 'primary' : 'secondary'
   return (
-    <CardContainer>
+    <CardContainer data-testid='card'>
       <NameContainer>
         <NameText>{metrics.metric_name.toUpperCase()}</NameText>
       </NameContainer>
@@ -34,11 +34,11 @@ export function Card({ metrics }: ICard) {
         <CountContainer>
           <Count>
             {new Intl.NumberFormat('en-IN', {
-              maximumSignificantDigits: 2,
+              maximumSignificantDigits: 4,
             }).format(metrics.metric_count)}
           </Count>
         </CountContainer>
-        <Percentile variation={variationChange}>
+        <Percentile data-testid='icon' variation={variationChange}>
           {metrics.percentile}%
         </Percentile>
         <IconContainer>

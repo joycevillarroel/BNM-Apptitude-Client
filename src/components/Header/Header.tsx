@@ -3,7 +3,7 @@ import BNMLogo from '../../assets/images/BNM_Logo_White.png'
 
 export function Header() {
   return (
-    <HeaderContainer>
+    <HeaderContainer data-testid="header">
       <HeaderContent src={BNMLogo} />
     </HeaderContainer>
   )
