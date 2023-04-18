@@ -50,7 +50,7 @@ export function Card({ metrics }: ICard) {
         <Performance>
           Your performace from last week{' '}
           <PerformanceNumber variation={variationChange}>
-            {metrics.week_over_week_change}%
+            {isPositiveVariation && '+'}{metrics.week_over_week_change}%
           </PerformanceNumber>
         </Performance>
       </PerformaceBox>
